@@ -1,19 +1,21 @@
                      //problem-1
-let num=13;
-let fact=0;
-for(i=1;i<=num;i++){
-if(num%i==0){
-fact++;
+let N=17;
+let count=0;
+for(let i=1;i<=N;i++){
+ if(N%i==0){
+   count++;
+ }
 }
+if(count==2){
+console.log("Palindrome");
 }
-if(fact==0){
-console.log(true)
 
                       // problem-2
-let str="naman"
+let str="madam";
 let bag="";
-for(i=1;i<=str.length-1;i++){
+for(i=str.length-1;i>=0;i--){
 bag+=str[i];
 }
 if(bag==str){
-console.log(true)
+console.log(true);
+}
